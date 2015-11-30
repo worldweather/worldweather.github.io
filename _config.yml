@@ -1,0 +1,6 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://worldweather.github.io
+title: worldweather
+paginate: 10
