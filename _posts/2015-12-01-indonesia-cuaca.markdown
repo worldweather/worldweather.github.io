@@ -2,6 +2,7 @@
 published: true
 title: Indonesia cuaca
 layout: post
+permalink: Indonesia cuaca
 ---
 Pilih kota
 
