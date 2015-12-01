@@ -4,5 +4,5 @@ title: الطقس في الكويت
 layout: post
 permalink: kuwait-weather
 ---
-<a href="https://www.kuwait-weather.net/" "> الطقس في الكويت</a>
-<a href="https://www.kuwait-weather.net/kw/Ahmadi" "> الطقس في الاحمدي</a> | <a href="https://www.kuwait-weather.net/kw/Al-Shuaiba" "> الطقس في الشعيبة</a> | <a href="https://www.kuwait-weather.net/kw/Abdaly" "> الطقس في العبدلي</a> | <a href="https://www.kuwait-weather.net/kw/Bubiyan" "> الطقس في بوبيان</a>
+<a href="https://www.kuwait-weather.net/"> الطقس في الكويت</a>
+<a href="https://www.kuwait-weather.net/kw/Ahmadi"> الطقس في الاحمدي</a> | <a href="https://www.kuwait-weather.net/kw/Al-Shuaiba"> الطقس في الشعيبة</a> | <a href="https://www.kuwait-weather.net/kw/Abdaly"> الطقس في العبدلي</a> | <a href="https://www.kuwait-weather.net/kw/Bubiyan"> الطقس في بوبيان</a>
