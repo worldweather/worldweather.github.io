@@ -1,23 +1,85 @@
----
-layout: posts
----
-        {% for post in paginator.posts %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <title>worldweather</title>
+    <link href="http://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet" type="text/css">
+    <link rel="alternate" type="application/atom+xml" title="Feed for blog posts" href="/feed.xml">
+<style>
+  *{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0;margin:0;outline:none}body{line-height:1.6em;font-family:Arial,sans-serif;color:#444;padding-top:20px}a{color:#777;text-decoration:none}a:hover{text-decoration:underline}.wrapper{width:600px;margin:0 auto}nav{text-align:center}nav a{padding:0 5px;font-size:90%}header{font-family:'Libre Baskerville', Georgia;margin:10px 0;padding:20px;border-bottom:1px solid #F4F6F7;text-align:center}header h1{line-height:1.2em}.home{margin-top:70px}time{padding-left:20px}article{padding:15px;font-size:90%}article p{padding:10px}article a{color:#407FBF}article h3{color:#FF9999}article a:visited{color:#74A2D0}article img{max-width:550px;display:block;margin:0 auto;text-align:center}article.list{padding:0}aside{margin-top:20px;border-top:1px solid #F4F6F7}blockquote{font-style:italic;padding:5px 15px;margin:10px;border-left:5px solid #F4F6F7}article > ul,article > ol,.post-list ul,.post-list ol{margin-left:35px}.post-list{list-style:none;margin:0;padding:0}.post-list time{display:block;padding:0 10px 0 0}.post-list > li{border-bottom:1px solid #F4F6F7;padding:20px 10px}.post-list > li:last-child{border:0}.post-list h3{margin-bottom:10px}.highlight pre{padding:10px;overflow:auto}.paginator{border-top:1px solid #F4F6F7;padding:15px;margin-top:20px;font-weight:bold;text-align:center}.newer{display:inline-block;margin-right:50px}.center{text-align:center}.fade{color:#aca899}.clearfix:before,.clearfix:after{display:table;content:" "}.clearfix:after{clear:both}footer{font-size:90%;text-align:center;margin:20px 0;padding-left:15px}footer a{padding:5px}@media (max-width : 600px){.wrapper{width:100%}}pre code[class]:after{content:'highlight: 'attr(class);display:block;text-align:right;font-size:smaller;color:#CCC;background:white;border-top:solid 1px;padding-top:0.5em}pre code{display:block;background:#F0F0F0}pre code,.ruby .subst,.xml .title,.lisp .title{color:black}.string,.title,.parent,.tag .attribute .value,.rules .value,.rules .value .number,.preprocessor,.ruby .symbol,.instancevar,.aggregate,.template_tag,.django .variable,.smalltalk .class,.addition,.flow,.stream,.bash .variable,.apache .tag,.apache .cbracket{color:#800}.comment,.annotation,.template_comment,.diff .header,.chunk{color:#888}.number,.date,.regexp,.literal,.smalltalk .symbol,.smalltalk .char,.change{color:#080}.label,.javadoc,.ruby .string,.decorator,.filter .argument,.localvars,.array,.attr_selector,.pseudo,.pi,.doctype,.deletion,.envvar,.shebang,.apache .sqbracket{color:#88F}.keyword,.id,.phpdoc,.title,.built_in,.aggregate,.smalltalk .class,.winutils,.bash .variable,.apache .tag{font-weight:bold}.html .css,.html .javascript,.html .vbscript{opacity:0.5}
+    </style></head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>worldweather</h1>
+        </header>
+        <article class="list">
+            <ul class="post-list">
+                        
         <li>
-            <time>{{ post.date | date_to_string }}</time>
-            <h3>{% if page.link %}<a href="{{ post.link }}">{{ post.title }}</a> *{% else %}<a href="{{ post.url }}">{{ post.title }}</a>{% endif %}</h3>
+            <h3><a href="/Saudi-weather-en">Saudi Weather</a></h3>
         </li>
-        {% endfor %}
+        
+        <li>
+            <h3><a href="/kuwait-weather">الطقس في الكويت</a></h3>
+        </li>
+        
+        <li>
+            <h3><a href="/pilipinas-Lagay-ng-panahon">Pilipinas Lagay ng Panahon</a></h3>
+        </li>
+        
+        <li>
+            <h3><a href="/Indonesia cuaca">Indonesia cuaca</a></h3>
+        </li>
+        
+        <li>
+            <h3><a href="/globe-weather">Globe Weather</a></h3>
+        </li>
+        
+        <li>
+            <h3><a href="/egypt-weather">الطقس في مصر</a></h3>
+        </li>
+        
+        <li>
+            <h3><a href="/india-weather">india weather</a></h3>
+        </li>
+        
+        <li>
+            <h3><a href="/interpretation-of-dreams">تفسير الاحلام</a></h3>
+        </li>
+        
+        <li>
+            <h3><a href="/weather">الطقس</a></h3>
+        </li>
+                        <li>
+            <h3><a href="/Argentina-clima">Argentina clima meteorológica</a></h3>
+        </li>
+                        <li>
+            <h3><a href="/Japan-weather">法人日本気象</a></h3>
+        </li>
+                        <li>
+            <h3><a href="/Mexico-clima"> México clima</a></h3>
+        </li>
+                        <li>
+            <h3><a href="/brasil-condicoes">Brasil Condições meteorológicas</a></h3>
+        </li>
+                        <li>
+            <h3><a href="/china-weather">中国天气</a></h3>
+        </li>
+                        <li>
+            <h3><a href="/vietnam-weather">Việt Nam Thời tiết </a></h3>
+        </li>
+        
     </ul>
 </article>
 
-{% if paginator.total_pages > 1 %}
-<div class="paginator">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="newer">Back</a>
-  {% endif %}
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a>
-  {% endif %}
-</div>
-{% endif %}
+
+        <footer>
+           <a href="http://www.arabsnews32.org">اخبار العرب</a> | <a href="https://www.sdeg.org">صدق</a> | <a href="https://www.saudiweather.net">الطقس في السعودية</a> || <a href="https://www.thedreams.co">تفسير الاحلام</a> | <a href="https://www.saudiweather.net/weather/sa/Jeddah"> الطقس في جدة</a> | <a href="https://www.saudiweather.net/weather/sa/Riyadh"> الطقس في الرياض</a> 
+        </footer>
+    </div>
+</body>
+</html>
